@@ -2,9 +2,9 @@ streamlit==1.32.2
 openai==1.14.2
 sentence-transformers==2.2.2
 faiss-cpu==1.7.4
-numpy==1.24.4
+numpy>=1.26.0
 PyPDF2==3.0.1
 google-api-python-client==2.125.0
 google-auth==2.29.0
 google-auth-oauthlib==1.2.0
-protobuf==4.25.3  # 💡 openai / google 관련 호환성 문제 방지
+protobuf==4.25.3
